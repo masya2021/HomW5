@@ -1,0 +1,441 @@
+/* body {
+    margin: auto;
+} */
+
+.wrapper {
+    max-width: 1600px;
+
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(226, 221, 221);
+}
+
+.ls {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: firebrick; */
+}
+
+.logo .log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 100%;
+    /* background-color: greenyellow; */
+}
+
+.search {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    /* background-color: darkorange; */
+}
+
+.search p {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    /* background-color: darkviolet; */
+}
+
+
+.punkt {
+    width: 100%;
+    height: 90px;
+    margin: auto;
+}
+
+.descr {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.punkt3 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.punkt3 .a {
+    width: 100px;
+    height: 40%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.punkt6 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.punkt6 .b {
+    width: 100px;
+    height: 40%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.punkt6 .b:hover {
+    background-color: darkkhaki;
+}
+
+
+
+.punkt3 .a:hover {
+    background-color: darkkhaki;
+}
+
+
+
+.punkt3 div:nth-child(2) {
+    background-color: cornflowerblue;
+}
+
+.punkt6 div:nth-child(2) {
+    background-color: cornflowerblue;
+}
+
+.centr {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 234, 234);
+    display: flex;
+    max-height: none;
+}
+
+.block {
+    width: 25%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bl {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 25px;
+    width: 100%;
+    height: 25px;
+    background-color: cadetblue;
+}
+
+.bl:hover {
+    background-color: brown;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+}
+
+.im {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px auto;
+    width: 300px;
+    height: 250px;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+
+@media(max-width: 1300px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .logo {
+        width: 48%;
+    }
+
+    .search {
+        width: 48%;
+    }
+
+    .centr .img1 {
+        width: 40%;
+        height: 40%;
+        margin: auto;
+    }
+}
+
+@media(max-width: 1050px) {
+    .ls {
+        width: 90%;
+    }
+
+    .log {
+        width: 500px;
+    }
+}
+
+@media(max-width: 880px) {
+    main {
+        width: 100%;
+    }
+
+    header .logo .log {
+        width: 100%;
+    }
+
+    header .search p {
+        width: 100%;
+    }
+
+    .descr {
+        width: 100%;
+    }
+
+    .centr {
+        width: 100%;
+    }
+
+    .centr .img1 {
+        width: 80%;
+        height: 80%;
+        margin: 10px auto;
+    }
+
+    .ls {
+        width: 100%;
+        margin: auto;
+    }
+
+    footer {
+        width: auto;
+    }
+}
+
+@media(max-width: 700px) {
+    header {
+        height: 80px;
+    }
+
+    .ls {
+        width: 90%;
+        height: 100%;
+    }
+
+    .logo {
+        width: 49%;
+    }
+
+    .search {
+        width: 49%;
+    }
+
+    .log {
+        width: 500px;
+        height: 100%;
+    }
+
+    .im {
+        width: 250px;
+        height: 192px;
+    }
+
+    footer {
+        width: auto;
+        height: 80px;
+    }
+}
+
+@media(max-width: 700px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .punkt {
+        height: 70px;
+    }
+
+    .punkt3 .a {
+        width: 90px;
+        height: 36%;
+        font-size: 90%;
+    }
+
+    .punkt6 .b {
+        width: 90px;
+        height: 36%;
+        font-size: 90%;
+    }
+}
+
+@media(max-width: 600px) {
+    header {
+        height: 70px;
+    }
+
+    .logo {
+        width: 49%;
+        margin: auto;
+    }
+
+    .search {
+        width: 49%;
+        margin: auto;
+    }
+
+    .log {
+        width: 450px;
+    }
+
+    .search .sea {
+        width: 40%;
+        margin: auto;
+    }
+
+    .punkt {
+        height: 55px;
+    }
+
+    .punkt3 .a {
+        width: 70px;
+        height: 28%;
+        font-size: 80%;
+    }
+
+    .punkt6 .b {
+        width: 70px;
+        height: 28%;
+        font-size: 80%;
+    }
+}
+
+@media(max-width: 550px) {
+    .search .sea .in {
+        margin: auto;
+        font-size: 15%;
+    }
+}
+
+@media(max-width: 500px) {
+
+    header {
+        height: 60px;
+    }
+
+    .im {
+        width: 189px;
+        height: 142px;
+    }
+
+    .punkt {
+        height: 47px;
+    }
+
+    .punkt3 .a {
+        width: 65px;
+        height: 26%;
+        font-size: 70%;
+    }
+
+    .punkt6 .b {
+        width: 65px;
+        height: 26%;
+        font-size: 70%;
+    }
+}
+
+@media(max-width: 420px) {
+    header {
+        height: 50px;
+    }
+
+    .search {
+        height: 100%;
+    }
+
+    .im {
+        width: 189px;
+        height: 142px;
+    }
+
+    .punkt {
+        height: 42px;
+    }
+
+    .punkt3 .a {
+        width: 55px;
+        height: 35%;
+        font-size: 65%;
+    }
+
+    .punkt6 .b {
+        width: 55px;
+        height: 35%;
+        font-size: 65%;
+    }
+
+    footer {
+        height: 50px;
+    }
+}
+
+@media(max-width: 360px) {
+
+
+    .punkt3 .a {
+        width: 49px;
+        height: 35%;
+        font-size: 65%;
+    }
+
+    .punkt6 .b {
+        width: 49px;
+        height: 35%;
+        font-size: 65%;
+    }
+}

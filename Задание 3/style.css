@@ -1,0 +1,24 @@
+.container {
+    background: blue;
+    width: 650px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    width: 60%;
+    height: 60%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    width: 60%;
+    height: 60%;
+    background-color: red;
+    display: flex;
+}

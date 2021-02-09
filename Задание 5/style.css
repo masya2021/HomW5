@@ -1,0 +1,1021 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End Reset CSS*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header {
+    height: 100px;
+    background: #f6f9f9;
+}
+
+header .logo_text {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+    left: 10px;
+}
+
+header .logo {
+    margin-top: 30px;
+}
+
+.Banner {
+    height: 800px;
+    background-image: url(./images/Banner.png);
+    background-repeat: no-repeat;
+}
+
+.Banner h1 {
+    COLOR: #ffffff;
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;
+    padding-top: 220px;
+    height: 90px;
+}
+
+.Banner i {
+    background: #15a4fa;
+    width: 602px;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+
+.Banner p {
+    font-size: 20px;
+    padding-top: 44px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Banner .bt {
+    text-align: center;
+    padding-top: 65px;
+}
+
+.Banner a {
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-decoration: none;
+    color: #d8d9dd;
+}
+
+.Banner .bt a:hover {
+    background: #15a4fa;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.Banner .bt2 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 175px;
+
+}
+
+.Simple {
+    height: 340px;
+    background: #f6f9f9;
+}
+
+.Simple .one h3 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+    color: #2d3950;
+}
+
+.Simple .two p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 42px;
+    color: #999999;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.Feature {
+    height: 340px;
+    background-color: #ffffff;
+}
+
+.Feature .descr {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.Feature .fon {
+    background-image: url(./images/icons/BG\ Fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+}
+
+.Feature .icon1 {
+    padding-top: 25px;
+}
+
+.Feature .bl1 {
+    display: inline-block;
+    width: 380px;
+    text-align: center;
+
+}
+
+.Feature .bl1 h3 {
+    font-size: 22px;
+    color: #2d3950;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.Feature .bl1 p {
+    font-size: 15px;
+    color: #a1a1a1;
+    margin-top: 26px;
+    text-align: center;
+}
+
+.Feature .bl2 {
+    display: inline-block;
+    width: 380px;
+
+}
+
+.Feature .bl2 h3 {
+    font-size: 22px;
+    color: #2d3950;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.Feature .bl2 p {
+    font-size: 15px;
+    color: #a1a1a1;
+    margin-top: 26px;
+    text-align: center;
+}
+
+.Feature .bl3 {
+    display: inline-block;
+    width: 380px;
+
+}
+
+.Feature .bl3 h3 {
+    font-size: 22px;
+    color: #2d3950;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.Feature .bl3 p {
+    font-size: 15px;
+    color: #a1a1a1;
+    margin-top: 26px;
+    text-align: center;
+}
+
+.Portfolio {
+    height: auto;
+    background-color: #f6f9f9;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Portfolio h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 41px;
+    color: #2d3950;
+    margin-top: 80px;
+}
+
+.Portfolio h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #c4c5c5;
+    margin-top: 28px;
+}
+
+.Portfolio .box {
+    margin: 0 auto;
+    max-width: 1140px;
+    height: 550px;
+
+    margin-top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-item1 {
+    width: 360px;
+    height: 260px;
+    background-image: url(./images/Picture/foto\ 1.png);
+    background-repeat: no-repeat;
+    transition: .3s;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.image-item2 {
+    width: 360px;
+    height: 260px;
+    background-image: url(./images/Picture/foto\ 2.png);
+    background-repeat: no-repeat;
+    transition: .3s;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.image-item3 {
+    width: 360px;
+    height: 260px;
+    background-image: url(./images/Picture/foto\ 3.png);
+    background-repeat: no-repeat;
+    transition: .3s;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.image-item4 {
+    width: 360px;
+    height: 260px;
+    background-image: url(./images/Picture/foto\ 4.png);
+    background-repeat: no-repeat;
+    transition: .3s;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.image-item5 {
+    width: 360px;
+    height: 260px;
+    background-image: url(./images/Picture/foto\ 5.png);
+    background-repeat: no-repeat;
+    transition: .3s;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.image-item6 {
+    width: 360px;
+    height: 260px;
+    background-image: url(./images/Picture/foto\ 6.png);
+    background-repeat: no-repeat;
+    transition: .3s;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.image-item-back {
+    width: 100%;
+    height: 100%;
+    background-color: #209dee;
+    opacity: 0;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-item1:hover .image-item-back {
+    opacity: 0.7;
+}
+
+.image-item2:hover .image-item-back {
+    opacity: 0.7;
+}
+
+.image-item3:hover .image-item-back {
+    opacity: 0.7;
+}
+
+.image-item4:hover .image-item-back {
+    opacity: 0.7;
+}
+
+.image-item5:hover .image-item-back {
+    opacity: 0.7;
+}
+
+.image-item6:hover .image-item-back {
+    opacity: 0.7;
+}
+
+.image-item-icons-ramka {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-icons-item {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Stay {
+    display: block;
+    height: 700px;
+    background-image: url(./images/Stay/Osnova.png);
+}
+
+.Stay .descr {
+    display: flex;
+    flex-direction: column;
+    background-color: #2d3950;
+    opacity: 0.7;
+    height: 700px;
+}
+
+.Stay .text1 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 41px;
+    color: #ffffff;
+    padding-top: 55px;
+}
+
+.Stay .text2 p {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #939495;
+    margin-top: 28px;
+}
+
+.Stay .tabl {
+    display: block;
+}
+
+.Stay .tabl .a {
+    display: flex;
+    justify-content: center;
+}
+
+.Stay .tabl .b {
+    display: flex;
+    justify-content: center;
+}
+
+.Stay .tabl .c {
+    display: flex;
+    justify-content: center;
+}
+
+.Stay .name {
+    color: #999999;
+    font-size: 15px;
+    background: inherit;
+    margin-top: 54px;
+    width: 555px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    border: 1px solid#999999;
+    border-radius: 2px;
+}
+
+.Stay .name1 {
+    color: #999999;
+    font-size: 15px;
+    background: inherit;
+    margin-top: 20px;
+    width: 555px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    border: 1px solid#999999;
+    border-radius: 2px;
+}
+
+
+.Stay .name2 {
+
+    color: #999999;
+    font-size: 15px;
+    background: inherit;
+    margin-top: 20px;
+    width: 555px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 125px;
+    border: 1px solid#999999;
+    border-radius: 2px;
+}
+
+.Stay .niz {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+
+.Stay .q {
+    width: 555px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Stay .let {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #f5f5f6;
+}
+
+.Stay .click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    border: 1px solid#15a4fa;
+    border-radius: 1px;
+}
+
+.Stay .click:hover {
+    font-size: 20px;
+    background-color: #15a4fa;
+    color: #f4faff;
+    border-radius: 2px;
+}
+
+.Stay .click a {
+    font-size: 18px;
+    color: #f4faff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f6f9f9;
+    height: 90px;
+}
+
+footer .ft {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .tc {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #999999;
+}
+
+footer .ic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+}
+
+footer .mesf {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #15a4fa;
+    border-radius: 1px;
+    background-color: #15a4fa;
+}
+
+footer .mesf:hover {
+    background-color: #3b5998;
+}
+
+footer .mest {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #15a4fa;
+    border-radius: 1px;
+    background-color: #15a4fa;
+}
+
+footer .mest:hover {
+    background-color: #55acee;
+}
+
+footer .mesg {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #15a4fa;
+    border-radius: 1px;
+    background-color: #15a4fa;
+}
+
+footer .mesg:hover {
+    background-color: #dd4b39;
+}
+
+footer .mesln {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #15a4fa;
+    border-radius: 1px;
+    background-color: #15a4fa;
+}
+
+footer .mesln:hover {
+    background-color: #0976b4;
+}
+
+.mesf a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/icons2/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mest a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/icons2/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mesg a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/icons2/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mesln a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/icons2/linked.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media(max-width: 1300px) {
+    .center {
+        width: 90%;
+    }
+
+    .Stay .descr {
+        width: 100%;
+    }
+
+    .Simple .one h3 {
+        font-size: 30px;
+        padding-top: 70px;
+    }
+
+    .Simple .two p {
+
+        font-size: 18px;
+    }
+}
+
+@media(max-width:1300px) {
+    .Portfolio {
+        height: auto;
+    }
+
+    .Portfolio .box {
+        width: 85%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+    }
+
+    .image-item1 {
+        width: 360px;
+        height: 260px;
+        margin: 10px auto;
+    }
+
+    .image-item2 {
+        width: 360px;
+        height: 260px;
+        margin: 10px auto;
+    }
+
+    .image-item3 {
+        width: 360px;
+        height: 260px;
+        margin: 10px auto;
+    }
+
+    .image-item4 {
+        width: 360px;
+        height: 260px;
+        margin: 10px auto;
+    }
+
+    .image-item5 {
+        width: 360px;
+        height: 260px;
+        margin: 10px auto;
+    }
+
+    .image-item6 {
+        width: 360px;
+        height: 260px;
+        margin: 10px auto;
+    }
+}
+
+@media(max-width:1100px) {
+
+    .box {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+    }
+
+    .image-item1 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+
+    .image-item2 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+
+    .image-item3 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+
+    .image-item4 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+
+    .image-item5 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+
+    .image-item6 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+}
+
+@media(max-width:768px) {
+
+    .box {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+    }
+
+    .image-item1 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+
+    .image-item2 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+
+    .image-item3 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+
+    .image-item4 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+
+    .image-item5 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+
+    .image-item6 {
+        width: 342px;
+        height: 247px;
+        margin: 10px auto;
+    }
+}
+
+@media(max-width: 700px) {
+    .Feature .descr {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .Feature .descr p {
+        font-size: 13px;
+    }
+
+    .Banner i {
+        width: 80%;
+    }
+
+    .Banner .content p {
+        width: 80%;
+        margin: auto;
+        /*top right bottom left*/
+    }
+
+    .Banner h1 {
+        font-size: 100px;
+    }
+
+    .Banner h1 {
+        font-size: 65px;
+    }
+
+    .Banner p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .Portfolio {
+        text-align: center;
+    }
+
+    .Stay .descr .name {
+        width: 85%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Stay .descr .name1 {
+        width: 85%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Stay .descr .name2 {
+        width: 85%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+@media(max-width: 700px) {
+    footer .ft {
+        width: 90%;
+    }
+
+    footer .ft .tc {
+        text-align: center;
+    }
+}
+
+@media(max-width:500px) {
+    .Portfolio {
+        height: auto;
+    }
+
+    .Portfolio .box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+    }
+
+    .image-item1 {
+        width: 300px;
+        height: 200px;
+        margin: 10px auto;
+    }
+
+    .image-item2 {
+        width: 300px;
+        height: 200px;
+        margin: 10px auto;
+    }
+
+    .image-item3 {
+        width: 300px;
+        height: 200px;
+        margin: 10px auto;
+    }
+
+    .image-item4 {
+        width: 300px;
+        height: 200px;
+        margin: 10px auto;
+    }
+
+    .image-item5 {
+        width: 300px;
+        height: 200px;
+        margin: 10px auto;
+    }
+
+    .image-item6 {
+        width: 300px;
+        height: 200px;
+        margin: 10px auto;
+    }
+}

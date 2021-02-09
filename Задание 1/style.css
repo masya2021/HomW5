@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    max-width: 1360px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 100%;
+    height: 315px;
+}
+
+.one div {
+    width: 8%;
+    height: 100%;
+    background: yellow;
+}
+
+.one div:nth-child(1) {
+    background: green;
+}
+
+.one div:nth-child(8) {
+    width: 16%;
+}
+
+.two {
+    display: flex;
+    width: 100%;
+    height: 315px;
+    background: green;
+    font-size: 25px;
+    margin-top: 10px;
+}
